@@ -6,7 +6,7 @@
     <title>Jacques - Mvumbi</title>
     <link rel="shortcut icon" href="images/mvumbi-mabiala.JPG" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -17,11 +17,11 @@
                     <input type="checkbox" name="check-in" id="check">
                     <div class="sous-container">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <label for="check" class="close-menu"><i class="fa-solid fa-xmark"></i></label>
+                        <li><a href="#cv">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <label for="check" class="close-menu"><i class="bi bi-x-circle-fill"></i></label>
                     </div>
-                    <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+                    <label for="check" class="open-menu"><i class="bi bi-list"></i></label>
                 </div>
             </nav>
        </header>
@@ -36,7 +36,7 @@
                     <p>L'innovation implique souvent de prendre des risques. Lorsque ces tentatives ne fonctionnent pas comme prévu, il est sage de l'admettre ouvertement et de se concentrer sur le perfectionnement de ses autres projets.</p>
                     <div class="hero-info">
                         <a class="item-me" href="#">Hire me</a>
-                        <a class="cv-dowloand" href="#">Download Cv <i class="fa-solid fa-download"></i></a>
+                        <a id="cv" class="cv-dowloand" href="#">Download Cv <i class="fa-solid fa-download"></i></a>
                     </div>
                 </div>
             </section>
@@ -44,11 +44,11 @@
                 <div class="social-head">
                     <h4>Follow me on :</h4>
                 </div>
-                <a href="https://www.facebook.com/gloire.mvumbi.98" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-threads"></i></a>
-                <a href="https://www.linkedin.com/in/jacques-mvumbi-8791b4282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/mvumbi_mabiala?igsh=MmNhcDJpZGtpYWZw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://github.com/Mvumbi" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/gloire.mvumbi.98" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.linkedin.com/in/jacques-mvumbi-8791b4282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/mvumbi_mabiala?igsh=MmNhcDJpZGtpYWZw" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/Mvumbi" target="_blank"><i class="bi bi-github"></i></a>
             </div>
             <section class="container">
                 <div class="container-title">
@@ -75,7 +75,19 @@
             </section>
        </main>
        <footer>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum, blanditiis nisi earum ut magni error, velit sed aliquam laborum tempore ipsa esse veritatis. Doloribus eveniet minus obcaecati ea, rerum atque error hic in. Sunt alias labore voluptates voluptate soluta non explicabo similique nihil deserunt perspiciatis, commodi consequuntur omnis, odio neque et pariatur magnam accusantium fugit eligendi. Repellat adipisci ducimus similique nesciunt perspiciatis, expedita ad culpa ipsam aliquid! Eum nam mollitia magni tenetur consequuntur accusantium voluptas cum unde harum quod rerum id assumenda dignissimos, vero odit suscipit deserunt maxime in qui repellendus. In nulla laborum deserunt doloremque quam eaque voluptate!
+            <article class="footer-head">
+                <div class="location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7956.643490501552!2d15.208817099999997!3d-4.350604949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a2e3b2d0dc059%3A0x93aa67f725a0f186!2sPompage%2C%20Kinshasa!5e0!3m2!1sfr!2scd!4v1722707666986!5m2!1sfr!2scd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footer-text">
+                    <h3 id="contact">Contact Me <span>.</span></h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><i class="bi bi-telephone"></i><a href="tel:+243 894 531 708">+243 894 531 708</a></li>
+                        <li class="footer-item"><i class="bi bi-envelope"></i><a href="mailto:simpsonpro08@gmail.com">simpsonpro08@gmail.com</a></li>
+                    </ul>
+                    <p>&copy; 2024 <a href="#">Jacques.cd</a> All rights reserved</p>
+                </div>
+            </article>
        </footer>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

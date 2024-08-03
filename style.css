@@ -1,10 +1,5 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 *{
   padding: 0;
@@ -27,6 +22,16 @@
   padding: 10px 20px;
   list-style: none;
  
+}
+
+.sous-container li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.sous-container li a:hover{
+  font-weight: bolder;
 }
 
 .sous-container{
@@ -95,8 +100,26 @@
   }
 }
 
-@media screen and (max-width:944px) {
-  
+@media screen and (min-width:658px) {
+  section{
+    display: flex;
+    gap: 20%;
+    margin: 5% 0;
+  }
+
+  .social-lien{
+    margin: -5% 0;
+  }
+
+  .progress-in h3{
+    font-size: 1.rem;
+  }
+  .progress-in{
+    width: 100%;
+  }
+  .container-title h2{
+    font-size: 19px;
+  }
 }
 
 .section-img img{
@@ -108,7 +131,7 @@
 
 
 .section-header h2{
-  font-size: 22px;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   margin-left: 3%;
@@ -123,14 +146,14 @@
 
 .section-header p{
   font-size: 16px;
-  margin: 0 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 3%;
+  margin: 3px 20px;
+  font-family: inherit;
+  opacity: 0.5;
 }
 
 .hero-info {
   font-size: 20px;
-  margin: 10% 5% ;
+  margin: 2% 5% ;
 }
 
 
@@ -171,7 +194,7 @@
 
 .social-lien a{
   color: blue;
-  font-size: 30px;
+  font-size: 25px;
   margin: 2% 1% ;
 }
 .container{
@@ -180,10 +203,55 @@
 }
 .container-title h2{
   margin: 5% 0;
+  padding: 1%;
   text-align: center;
 }
 
 .progress-in{
   background-color: blue;
   padding: 5%;
+}
+
+/*footer*/
+
+.location iframe{
+  display: none;
+  width: 100%;
+  height: 400px;
+}
+
+.footer-text span{
+  font-size: 50px;
+  color: blue;
+}
+
+.footer-text{
+  margin-top: 4%;
+  text-align: center;
+}
+
+.footer-list li{
+  list-style: none;
+}
+
+.footer-list li i{
+  margin: 0 2%;
+}
+
+.footer-list li a{
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+@media screen and (min-width:658px) {
+ .footer-head{
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .location iframe{
+  width: 100%;
+  display: block;
+ }
 }
