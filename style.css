@@ -5,10 +5,11 @@
 }
 
 .container h1{
-  color: aqua;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 .container{
   width: 100%;
@@ -28,8 +29,7 @@
 .open-menu, .close-menu{
   position: absolute;
   cursor: pointer;
-  font-size: 1.3rem;
-  color: black;
+  font-size: 30px;
   display: none;
 }
 
@@ -38,6 +38,7 @@
 }
 
 .open-menu{
+  color: black;
   right: 25px;
   top: 30%;
   transform: translate(-50%);
@@ -46,6 +47,8 @@
 .close-menu{
   top: 20px;
   right: 20px;
+  color: white;
+
 }
 
 @media screen and (max-width:800px) {
@@ -55,12 +58,24 @@
     justify-content: center;
     width: 50%;
     height: 100vh;
-    background-color: rgb(233, 82, 82);
+    background-image:url(images/lune-3.avif);
+    background-size:cover;
     position: fixed;
     top: 0;
     right: -100%;
     z-index: 100;
     transition: all 0.2s ease-in-out;
+  }
+
+  .sous-container li a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+
+  .sous-container li a:hover{
+    font-weight: bolder;
   }
 
   .open-menu, .close-menu{
@@ -133,13 +148,18 @@
 }
 
 .socials-link{
-  text-align: center;
-  margin: 20% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-text h4{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .socials-link a{
-  color: black;
-  font-size: 35px;
+  color: blue;
+  font-size: 25px;
   margin: 0 2%;
 }
 
