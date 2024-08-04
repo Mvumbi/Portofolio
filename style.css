@@ -87,6 +87,7 @@
     font-size: 20px;
   }
 
+
  .sous-container li a:hover{
   font-weight: bolder;
  }
@@ -132,7 +133,7 @@
 
 .section-header h2{
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lora", serif;
   font-weight: bolder;
   margin-left: 3%;
 }
@@ -147,7 +148,7 @@
 .section-header p{
   font-size: 16px;
   margin: 3px 20px;
-  font-family: inherit;
+  font-family: "Lora", serif;
   opacity: 0.5;
 }
 
@@ -167,7 +168,7 @@
 }
 
 .item-me{
-  background-color: blue;
+  background-color: rgb(82, 122, 245);
   color: white;
 }
 
@@ -193,7 +194,7 @@
 }
 
 .social-lien a{
-  color: blue;
+  color: rgb(67, 187, 232);
   font-size: 25px;
   margin: 2% 1% ;
 }
@@ -208,7 +209,7 @@
 }
 
 .progress-in{
-  background-color: blue;
+  background-color: rgb(63, 106, 240);
   padding: 5%;
 }
 
